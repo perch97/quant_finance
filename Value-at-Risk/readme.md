@@ -22,3 +22,21 @@ The Historical Method for assessing Value at Risk (VaR) is one of the simplest a
     For a 99% confidence level, you would look at the return that is greater than or equal to 1% of the worst returns (i.e., the 1st percentile).
     For example, with a 95% confidence level, the VaR is the 5th percentile of the historical return distribution.
 
+
+
+Advantages of the Historical VaR Method
+
+  1. No Assumptions about Distribution: Unlike parametric methods (e.g., the Variance-Covariance method), the Historical VaR method doesn’t require assumptions about the           distribution of returns (e.g., normal distribution).
+
+  2. Simple and Intuitive: It is straightforward to understand and easy to implement, as it relies on actual past market data.
+
+  3. Reflects Real Market Conditions: Since it uses real historical data, it inherently captures the market’s past behavior, including extreme events, outliers, and                correlations between assets.
+
+Disadvantages of the Historical VaR Method
+
+  1. Data Dependency: The accuracy of the method is highly dependent on the quality and length of the historical data used. If the data set is small or unrepresentative of         future market conditions, it could lead to inaccurate results.
+
+  2. No Forecasting of Future Events: The method doesn't consider changes in market conditions that could occur in the future, such as shifts in volatility, interest rates,        or new market shocks.
+
+  3.Extreme Events or Outliers: Rare events (like the 2008 financial crisis) may or may not be captured depending on the time period of the historical data used. If extreme       events didn’t occur in the period used for historical simulation, they won’t be reflected in the VaR estimate.
+
